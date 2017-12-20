@@ -25,7 +25,7 @@ function inheritPrototype(sub,superType){
 
 sub.prototype.sayGender = function(){
 	console.log(this.gender + ' colors: ' +this.colors);
-}
+};
 
 inheritPrototype(sub,superType);
 var ins = new superType('mao',22);
